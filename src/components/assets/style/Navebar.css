@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bnt-link{
+margin-left: 48px;
+text-decoration: none;
+color: #000;
+font-size: 18px;}
+.logo{
+    font-size: 24px;
+}
+.bnt-link:hover{
+    color: #1E1E1E80;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 44px;
+    margin-left: 96px;
+    top: 0;
+
+}
+.right{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    margin-right: 150px;
+}
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.icon-button:hover {
+    color: #1E1E1E80; 
+}
+.cart-show {
+    position: absolute;
+    top: 60px; /* Adjust according to your Navbar height */
+    right: 10px; /* Move the box slightly to the right */
+    width: 350px; /* Adjust width as needed */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 8px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+.cart-show h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+.cart-show ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-show li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-show button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-show button:hover {
+    background-color: #45a049;
+}
+
+.cart-show .remove-btn {
+    background-color: #f44336;
+}
+
+.cart-show .remove-btn:hover {
+    background-color: #e53935;
+}
+

@@ -1,0 +1,52 @@
+.productData {
+    max-width: 400px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.productData label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.productData input[type="text"],
+.productData input[type="number"],
+.productData input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.productData input[type="text"]:focus,
+.productData input[type="number"]:focus,
+.productData input[type="file"]:focus {
+    border-color: #007bff;
+}
+
+.bnt-green {
+    background-color: #C1DCDC;
+    color: #1E1E1E;
+    padding: 10px; 
+    border: none;
+    width: 100%;
+    height: 36px; 
+    border-radius: 8px;
+    margin-top: 10px; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.bnt-green:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}

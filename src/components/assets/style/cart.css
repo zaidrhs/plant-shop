@@ -1,0 +1,84 @@
+/* cart.css */
+.cart-container {
+    position: absolute;
+    top: 60px; /* Adjust according to your Navbar height */
+    right: 10px; /* Adjust to move the box slightly to the right */
+    width: 400px; /* Adjust width to ensure it is visible */
+    max-height: 600px; /* Set a maximum height to enable scrolling if needed */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    display: none; /* Initially hidden */
+}
+
+.cart-container.show {
+    display: block; /* Show when the box is active */
+}
+
+.cart-container h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+.cart-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-container th, .cart-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-container th {
+    background-color: #f4f4f4;
+}
+
+.cart-container button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 2px; /* Small margin to space buttons */
+    font-size: 0.8em; /* Smaller font size */
+}
+
+.cart-container .increase-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cart-container .decrease-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.cart-container .remove-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.cart-container button:hover {
+    opacity: 0.9;
+}
+
+.cart-container .increase-btn:hover {
+    background-color: #45a049;
+}
+
+.cart-container .decrease-btn:hover {
+    background-color: #ffb300;
+}
+
+.cart-container .remove-btn:hover {
+    background-color: #e53935;
+}
