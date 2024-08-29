@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/plant-shop/static/css/main.1604b67c.css",
+    "main.js": "/plant-shop/static/js/main.0e90fac3.js",
+    "static/js/453.c59696d8.chunk.js": "/plant-shop/static/js/453.c59696d8.chunk.js",
+    "static/media/fa-solid-900.ttf": "/plant-shop/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/Frame 37.png": "/plant-shop/static/media/Frame 37.8a04bc990ca4f3986d92.png",
+    "static/media/fa-brands-400.ttf": "/plant-shop/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/plant-shop/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/Frame 36.png": "/plant-shop/static/media/Frame 36.c3a721d53611aac40b90.png",
+    "static/media/Frame 38.png": "/plant-shop/static/media/Frame 38.0789d9486aabe34815ce.png",
+    "static/media/Frame 3.png": "/plant-shop/static/media/Frame 3.b369b4c708b4a60e0f26.png",
+    "static/media/fa-brands-400.woff2": "/plant-shop/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/Frame 7.png": "/plant-shop/static/media/Frame 7.87c006e33c9587e26cc0.png",
+    "static/media/Frame 8.png": "/plant-shop/static/media/Frame 8.ae9744d911e7ffd66634.png",
+    "static/media/fa-regular-400.ttf": "/plant-shop/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/Frame 9.jpg": "/plant-shop/static/media/Frame 9.1393933202e67febf207.jpg",
+    "static/media/fa-regular-400.woff2": "/plant-shop/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/unsplash_O3ymvT7Wf9U-removebg-preview.png": "/plant-shop/static/media/unsplash_O3ymvT7Wf9U-removebg-preview.df5ef7a81ff5c321ace1.png",
+    "static/media/unsplash_5aGUyCW_PJw-removebg-preview.png": "/plant-shop/static/media/unsplash_5aGUyCW_PJw-removebg-preview.63928b3ee14cf8d06310.png",
+    "static/media/fa-v4compatibility.ttf": "/plant-shop/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/plant-shop/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/plant-shop/index.html",
+    "main.1604b67c.css.map": "/plant-shop/static/css/main.1604b67c.css.map",
+    "main.0e90fac3.js.map": "/plant-shop/static/js/main.0e90fac3.js.map",
+    "453.c59696d8.chunk.js.map": "/plant-shop/static/js/453.c59696d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1604b67c.css",
+    "static/js/main.0e90fac3.js"
+  ]
+}
